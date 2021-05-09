@@ -1,0 +1,28 @@
+body{
+ background-color: rebeccapurple;
+ padding: 80px;
+}
+
+.container
+{
+  padding-top: 40px;
+  vertical-align: center;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form-group
+{
+  padding: 10px;
+  border: rebeccapurple;
+}
+
+.cr-btn{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rebeccapurple;
+  color: white;
+}

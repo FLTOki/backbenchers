@@ -1,0 +1,232 @@
+.navigation
+{
+  align-items: center;
+  float: right;
+  font-size: bold;
+  padding: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation a{
+  padding-left: 30px;
+  color: rebeccapurple;
+  text-decoration: none
+}
+
+.navigation a:hover{
+  color:darkslategrey;
+  text-decoration: underline;
+}
+
+.shop
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col-sm-6 h2
+{
+  text-align: center;
+  color: rebeccapurple;
+  align-items: center;
+}
+
+.col-sm-6 p
+{
+  float: left;
+  text-align: left;
+  font-size: 20px;
+}
+
+.col-sm-6 a, .btn-box a
+{
+  background-color: rebeccapurple;
+  color: aliceblue;
+}
+
+.col-sm-6 a:hover{
+  background-color: darkslategrey;
+}
+
+.col-sm-4
+{
+  justify-content: center;
+}
+
+.scroll
+{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rebeccapurple;
+}
+
+.scroll a{
+  color: rebeccapurple;
+}
+
+.scroll a:hover{
+  color: darkslategrey;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: table;
+  
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+  transform: rotate(-45deg);
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.second
+{
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.best
+{
+  padding-top: 30px;
+}
+
+.second h3{
+  color: rebeccapurple;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.row{
+  justify-content: center;
+  align-items: center;
+}
+
+.products
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contain{
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image{
+  width: 300px;
+  height: 200px;
+  background: url("../assets/images/pexels-emeric-laperriere-4563759.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.content
+{
+  width: 100%;
+  height: 270px;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;  
+}
+
+.review
+{
+  width: 240px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stars .fa{
+  font-size: .7rem;
+  color: darkslategrey;
+}
+
+.stars span
+{
+  font-size: .7rem;
+  padding-right: .3rem;
+  color: darkslategrey;
+}
+
+.review h5{
+  font-size: 1.2rem;
+}
+
+.name, .detail
+{
+  width: 240px;
+}
+
+.detail p{
+  color: darkslategrey;
+  font-size: .9rem;
+}
+
+.btn-box, .btn-shop{
+  display: flex;
+  align-items: center;
+}
+
+.btn-box{
+  width: 240px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.third h3{
+  color: rebeccapurple;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
