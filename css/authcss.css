@@ -20,8 +20,8 @@ body{
 }
 
 .cr-btn{
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   margin: 0 auto;
   background-color: rebeccapurple;
   color: white;

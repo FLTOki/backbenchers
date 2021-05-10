@@ -155,13 +155,13 @@ section {
   overflow: hidden;
 }
 
-.image{
+/* .image{
   width: 300px;
   height: 200px;
   background: url("../assets/images/pexels-emeric-laperriere-4563759.jpg");
   background-position: center;
   background-size: cover;
-}
+} */
 
 .content
 {

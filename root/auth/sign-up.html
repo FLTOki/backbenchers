@@ -10,18 +10,25 @@
 <body>
   <div class="container shadow p-3 mb-5 bg-white rounded">
     <form action="" class="login" id="login-form">
-      <h3>Fill in your details to log in</h3>
+      <h3>Fill in your details to register</h3>
       <div class="image">
-        <img src="../../assets/icons/undraw_secure_login_pdn4.svg" alt="" width="300px" height="250px">
+        <img src="../../assets/icons/undraw_authentication_fsn5.svg" alt="" width="300px" height="250px">
       </div>
       <div class="form-group">
         <label for="username">Username:</label>
         <input type="text" class="form-control" name="username" id="username" required>
       </div>
-      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" name="email" id="email" required>
+      </div>
       <div class="form-group">
         <label for="password">Password</label>
         <input type="password" name="password" id="password" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" name="confirm-password" id="confirm-password" class="form-control" required>
       </div>
 
       <div class="form-group">
@@ -29,8 +36,7 @@
         <a href="../index.html" class="btn btn-danger">Cancel</a>
       </div>
       <div class="form-group">
-        <p>Dont have an account? <a href="sign-up.html" class="btn btn-outline-primary">Sign Up</a></p>
-        <a href="#"><span>Forgot Password?</span></a>
+        <p>Already have an account? <a href="sign-in.html" class="btn btn-outline-primary">Log In</a></p>
       </div>
     </form>
   </div>
